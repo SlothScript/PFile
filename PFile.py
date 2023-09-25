@@ -1,13 +1,13 @@
 import os
 import console
-yeet = """
+seporaterbar = """
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 """
 def main():
 	print("PFile")
-	print(yeet)
+	print(seporaterbar)
 	print("[A] Edit file\n[B] Create file\n[C] Create and open file")
-	todo = input()
+	todo = input().upper()
 	if todo == "A":
 		console.clear()
 		todo = input("What file (include extentions like .txt or .py)\n")
